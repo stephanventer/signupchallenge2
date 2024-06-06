@@ -1,0 +1,90 @@
+body {
+  background-color: #00a5e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.signup-form {
+  background-color: #2e2e2e;
+  padding: 30px;
+  border-radius: 10px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.signup-form h2 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+  /* Adjust to align labels properly */
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  background-color: #00a5e0;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #007c9c;
+}
+
+label {
+  color: white;
+  margin-left: 5px;
+  font-size: small;
+}
+
+input::placeholder {
+  color: #888;
+}
+
+select.input-field {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.welcome-page {
+  text-align: center;
+  color: white;
+}
+
+.welcome-page h1 {
+  margin-bottom: 20px;
+}
