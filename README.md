@@ -1,4 +1,4 @@
-#Signup Challenge React App
+# Signup Challenge React App
 
 ![image](https://github.com/stephanventer/signupchallenge2/assets/3704907/f00c32a0-a870-4ae0-85ec-005e3401d941)
 
