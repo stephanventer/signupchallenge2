@@ -37,14 +37,14 @@ const SignupForm = () => {
                 value={formData.email}
                 onChange={handleChange}
             />
+            <PasswordInput
+                value={formData.password}
+                onChange={handleChange}
+            />
             <CountryDropdown
                 value={formData.country}
                 onChange={handleChange}
                 name="country"
-            />
-            <PasswordInput
-                value={formData.password}
-                onChange={handleChange}
             />
             <SubmitButton label="Complete Sign-Up" />
         </form>
