@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { fetchCountries } from '../services/countryService';
 
 const CountryDropdown = ({ value, onChange, name }) => {
     const [countries, setCountries] = useState([]);
 
     useEffect(() => {
         const getCountries = async () => {
-            const countryList = await fetchCountries();
+            //TODO: Fetch countries from API (https://api.first.org/data/v1/countries)
+            const countryList = ['Angola', 'Argentina', 'Australia', 'Brazil', 'Canada', 'China', 'France', 'Germany', 'India', 'Italy', 'Japan', 'Mexico', 'New Zealand', 'Russia', 'South Africa', 'South Korea', 'Turkey', 'United Kingdom', 'United States'];
             setCountries(countryList);
         };
 

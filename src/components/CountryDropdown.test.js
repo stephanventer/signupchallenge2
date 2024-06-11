@@ -1,13 +1,8 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import CountryDropdown from './CountryDropdown';
-import { fetchCountries } from '../services/countryService';
-
-jest.mock('../services/countryService');
 
 test('renders CountryDropdown component', async () => {
-    fetchCountries.mockResolvedValue(['Algeria', 'Angola']);
-
     const handleChange = jest.fn();
     render(<CountryDropdown value="" onChange={handleChange} name="country" />);
 
